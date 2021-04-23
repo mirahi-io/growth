@@ -35,14 +35,10 @@ their achievements, struggles and what they have learnt. The repository contains
 and feasibility.  
 * Once approved, each team/individual has an additional **two weeks to prepare** for the session. Additional research and 
 planning are encouraged so that everyone can hit the ground running as soon as the session starts 🏃‍. 
-* Once a session has started, all code is pushed to public repositories on Github. 
-* At the end of the first half day, teams are encouraged to start working on their presentation to save precious time on the second day. 
+* Once a session has started, all code is pushed to public repositories on Github.  
 * The session wraps on Friday at 5 pm at which point we all gather to see the presentations of our teammates. 
 * Each project has a ten-minute presentation time.
 
-![timeline](assets/trello.png)
-
-* We use a Trello board to manage topics and projects. 
 * The board is not only a repository of ideas for future topics or projects, but also where we manage the status of projects 
 e.g. Approved, Backlog (ready to go), In Progress, Done.
 
@@ -62,5 +58,5 @@ This project is maintained and funded by Mirahi.
 We love open source and do our part in sharing our work with the community!
 See [our other projects][community] or [hire our team][hire] to help build your product.
 
-[community]: https://github.com/mirahi.io
+[community]: https://github.com/mirahi-io
 [hire]: https://mirahi.io
