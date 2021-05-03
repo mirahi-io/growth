@@ -1,0 +1,45 @@
+.theme-dark:root {
+    --primary-text-color: #ffffff;
+    --title-color: #ffffff;
+    --secondary-text-color: #868686;
+    --white-color: #191852;
+    --lighter-gray-color: #191852;
+    --light-gray-color: #3b3e46;
+    --mid-gray-color: #666;
+    --dark-gray-color: #e6e6e6;
+    --darker-gray-color: #fff;
+    --featured-infos: #18DCB5;
+    --date: #F83756;
+}
+
+
+.theme-dark .logo-image.white + .logo-image,
+.theme-dark .cover-icon-image.white + .cover-icon-image {
+    opacity: 0;
+}
+
+.theme-dark .logo-image.logo-image.white,
+.theme-dark .cover-icon-image.white {
+    opacity: 1;
+}
+
+.theme-dark .sticky {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.theme-dark .form-button,
+.theme-dark .pswp__counter {
+    color: var(--darker-gray-color);
+}
+
+.theme-dark .share-link {
+    background-color: var(--darker-gray-color);
+}
+
+.theme-dark .share-link-facebook {
+    color: var(--facebook-color);
+}
+
+.theme-dark .share-link-twitter {
+    color: var(--twitter-color);
+}
