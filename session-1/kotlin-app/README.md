@@ -7,7 +7,7 @@ Kotlin was also an opportunity to learn development, with a mobile app approach.
 
 ## Team 
 
-The team was composed of : Timothee, Maxim and Arnaud.
+The team was composed of : Tim, Maxim and Arnaud.
 
 ## Difficulties
 
