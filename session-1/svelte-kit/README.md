@@ -18,3 +18,7 @@ It was also a good opportunity for each member to discover new "worlds" by chang
 - The project was a success because it was finished on time, good job Gaby,
 - The design was also nice for a one-day designer, GG Alexis,
 - The app is perfectly working, greats to Margot!
+
+Here is a preview of what the app looks like :
+
+![preview](https://i.imgur.com/O9Pz5of.png)
