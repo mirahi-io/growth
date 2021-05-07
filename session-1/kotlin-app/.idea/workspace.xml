@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d66b5e4-c058-45c2-aaa5-12b5704b0b5c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        </Entry>
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rYg9WdCSzISATpRGhXFo7p6kMl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d66b5e4-c058-45c2-aaa5-12b5704b0b5c" name="Default Changelist" comment="" />
+      <created>1619158285690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619158285690</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="299" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619164789157">
+      <screen x="0" y="0" width="1664" height="1069" />
+    </state>
+    <state x="299" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1664.1069/-1920.219.1920.1040@0.0.1664.1069" timestamp="1619164789157" />
+    <state x="613" y="290" key="FileChooserDialogImpl" timestamp="1619165256291">
+      <screen x="0" y="0" width="1664" height="1069" />
+    </state>
+    <state x="613" y="290" key="FileChooserDialogImpl/0.0.1664.1069/-1920.219.1920.1040@0.0.1664.1069" timestamp="1619165256291" />
+  </component>
+</project>
