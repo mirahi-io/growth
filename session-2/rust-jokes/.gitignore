@@ -24,3 +24,4 @@ rocket-rest-test.paw
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.waypoint
