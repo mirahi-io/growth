@@ -1,5 +1,6 @@
 #![feature(decl_macro)]
-#[macro_use] extern crate rocket;
+#[macro_use]
+extern crate rocket;
 
 use rocket::request::Form;
 
@@ -24,5 +25,7 @@ fn new_user(user: Form<User>) {
 }
 
 fn main() {
-    rocket::ignite().mount("/", routes![index, hello, new_user]).launch();
+    rocket::ignite()
+        .mount("/", routes![index, hello, new_user])
+        .launch();
 }
