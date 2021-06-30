@@ -1,0 +1,22 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "description": "solidity first imp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirahi-io/growth_session_2_blockchain_poc.git"
+  },
+  "keywords": [
+    "smartcontract"
+  ],
+  "author": "Freddy,Louis and Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirahi-io/growth_session_2_blockchain_poc/issues"
+  },
+  "homepage": "https://github.com/mirahi-io/growth_session_2_blockchain_poc#readme"
+}
