@@ -1,0 +1,14 @@
+[package]
+name = "forms"
+version = "0.0.0"
+workspace = "../"
+edition = "2018"
+publish = false
+
+[dependencies]
+rocket = { path = "../../core/lib" }
+time = "0.2"
+
+[dependencies.rocket_dyn_templates]
+path = "../../contrib/dyn_templates"
+features = ["tera"]

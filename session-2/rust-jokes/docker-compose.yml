@@ -1,0 +1,28 @@
+# TODO: Cache Cargo dependencies on image build
+version: '3'
+
+services:
+  api-server:
+    build: ./api
+    volumes:
+      - ./api:/usr/src/app
+    ports:
+      - '8080:8080'
+    links:
+      - database
+    environment:
+      - CARGO_INCREMENTAL=1
+    command: bash -c "./wait-for-it.sh db:5433 -q -- diesel setup && cargo watch -x run"
+
+  database:
+    image: 'postgres:9'
+    ports:
+      - '5433:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data/pgdata
+    environment:
+      POSTGRES_PASSWORD: supersecretpassword
+      PGDATA: /var/lib/postgresql/data/pgdata
+
+volumes:
+  pgdata: {}
