@@ -1,0 +1,11 @@
+FROM rustlang/rust:nightly as builder
+
+WORKDIR /usr/src/app
+
+EXPOSE 80
+
+COPY ./api .
+
+RUN cargo build --release
+
+CMD ["./target/release/jokes"]
