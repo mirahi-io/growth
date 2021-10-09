@@ -10,7 +10,11 @@ import urllib.request as urllib
 from email_sender import *
 from capture_image import *
 
-print('test')
+
+
+# TODO for mac os x user be careful with the six modul not found, please do : pip install --ignore-installed six (https://stackoverflow.com/questions/13967428/importerror-no-module-named-six)
+
+
 id = type('', (), {})()
 groupId = ' '
 sender = 'sam@mirahi.io'
@@ -24,23 +28,25 @@ KEY = "88ab810a183d4ecaaf7744a8be0ad9b6"
 # This endpoint will be used in all examples in this quickstart.
 ENDPOINT = "https://gs32bis.cognitiveservices.azure.com/"
 
-image = captureImageTarget()
+image = captureImageTarget();
 
-f = open('id.txt','r')
+f = open('session-3/facial_recognition/resources/id.txt','r')
 
-for line in f.readlines():
-     a = line.split('= ')
-     b = a[1][:-2]
-     print(a[0]+'test')
-     if a[0] == 'TargetID':
-         groupId = b
+
+# FIXME : to be correct
+
+# for line in f.readlines():
+#      a = line.split('= ')
+#      b = a[1][:-2]
+#      print(a[0]+'test')
+#      if a[0] == 'TargetID':
+#          groupId = b
      
 
 face_client = FaceClient(ENDPOINT, CognitiveServicesCredentials(KEY))
 
 
 # Group image for testing against
-
 # Detect faces
 face_ids = []
 # We use detection model 3 to get better performance.
