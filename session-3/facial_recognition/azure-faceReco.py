@@ -1,11 +1,3 @@
-import asyncio
-import io
-import glob
-import os
-import sys
-import time
-import uuid
-import requests
 from urllib.parse import urlparse
 from io import BytesIO
 # To install this module, run:
@@ -18,6 +10,7 @@ import urllib.request as urllib
 from email_sender import *
 from capture_image import *
 
+print('test')
 id = type('', (), {})()
 groupId = ' '
 sender = 'sam@mirahi.io'
@@ -52,6 +45,7 @@ face_client = FaceClient(ENDPOINT, CognitiveServicesCredentials(KEY))
 face_ids = []
 # We use detection model 3 to get better performance.
 faces = face_client.face.detect_with_stream(image, detection_model='detection_03')
+
 for face in faces:
     face_ids.append(face.face_id)
 
