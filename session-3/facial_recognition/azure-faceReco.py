@@ -12,15 +12,17 @@ from capture_image import *
 
 
 
-# TODO for mac os x user be careful with the six modul not found, please do : pip install --ignore-installed six (https://stackoverflow.com/questions/13967428/importerror-no-module-named-six)
+# TODO for mac os x user be careful with the six modul not found, please do : pip(3) install --ignore-installed six (https://stackoverflow.com/questions/13967428/importerror-no-module-named-six)
 
 
 id = type('', (), {})()
-groupId = ' '
-sender = 'sam@mirahi.io'
-receiver = 'sam@mirahi.io'
-subject = 'Mirahi growth test email '
-file_location = 'session-3/facial_recognition/resources/target.jpg'
+
+# TODO Create a proper propertie file for those fields
+groupId = ''
+sender = ''
+receiver = ''
+subject = ''
+
 
 # This key will serve all examples in this document.
 KEY = "88ab810a183d4ecaaf7744a8be0ad9b6"
@@ -28,8 +30,9 @@ KEY = "88ab810a183d4ecaaf7744a8be0ad9b6"
 # This endpoint will be used in all examples in this quickstart.
 ENDPOINT = "https://gs32bis.cognitiveservices.azure.com/"
 
-image = captureImageTarget();
 
+image = captureImageTarget();
+file_location = 'session-3/facial_recognition/resources/target.jpg'
 f = open('session-3/facial_recognition/resources/id.txt','r')
 
 
