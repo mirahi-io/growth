@@ -1,0 +1,29 @@
+# local machine
+sudo mkdir -p ~/.dockside && \
+sudo docker run -d --name dockside \
+  -v ~/.dockside:/data \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -p 443:443 -p 80:80 \
+  --security-opt=apparmor=unconfined \
+  newsnowlabs/dockside --ssl-builtin
+
+
+# local machine to anywhere
+mkdir -p ~/.dockside && \
+docker run -it --name dockside-anywhere \
+  -v ~/.dockside:/data \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -p 443:443 -p 80:80 \
+  --security-opt=apparmor=unconfined \
+  newsnowlabs/dockside:v1.6.0 --ssl-selfsigned --ssl-zone dockside.mirahi.cloud
+
+
+#local prod
+mkdir -p ~/.dockside && \
+docker run -d --name dockside \
+  -v ~/.dockside:/data \
+  -v ~/certsdir:/data/certs \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -p 443:443 -p 80:80 \
+  --security-opt=apparmor=unconfined \
+  newsnowlabs/dockside --ssl-selfsupplied --ssl-zone dockside.mirahi.cloud
