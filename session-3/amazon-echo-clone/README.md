@@ -5,4 +5,3 @@
 5) Allow the SSH for easier access
 6) Install the SDK on the Pi -> https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi.html
 7) Care when cmake the line -DPORTAUDIO_INCLUDE_DIR=/home/pi/sdk-folder/third-party/portaudio/include There is a missing \ 
-
